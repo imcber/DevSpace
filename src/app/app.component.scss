@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.background-main{
+    background-image: url("../assets/img/backgroundSpace.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-font{
+    color: #484C7F;
+    font-family: 'Fredoka One', cursive;//'Raleway', sans-serif;//'Bree Serif', serif;
+}
+
+.div-intro{
+    width: 75%;
+    padding-left: 35%;
+}
+
+.txt-intro{
+    span{
+        color: #484c7f;
+        display: flex;
+        text-align: center;
+        //'Raleway', sans-serif; //'Bree Serif', serif;
+    }
+    span.intro-title{
+        width: 75%;
+        height: 50%;
+        padding-bottom: 2em;
+        padding-top: 3em;
+        font-family: 'Fredoka One', cursive;
+        display: block;
+        font-size: 10vh;
+    }
+
+    span.intro-sub-title{
+        width: 75%;
+        height: 50%;
+        font-weight: 400;
+        font-family: 'Bree Serif', serif;
+        font-size: x-large;
+        text-align: justify;
+        padding-bottom: 15em;
+    }
+}
+
+.backg-white{
+    background-color: #FFFFFF;
+}
+
+.backg-purple{
+    background-color: #F0E7FF
+}
+
+.backg-blueSky{
+    background-color: rgb(235, 255, 254);
+}
+
+.image-carrucel{
+    width: 80%;
+    height: 80%;
+    padding-left: 13vh;
+    padding-right: 13vh;
+}
+
+.txt-web-desig{
+    div{
+        height: 90%;
+        width: 70%;
+    }
+    span{
+        color: #484c7f;
+        display: flex;
+        text-align: justify;
+        //'Raleway', sans-serif; //'Bree Serif', serif;
+    }
+    span.title-web{
+        padding-bottom: 8em;
+        //font-weight: 600;
+        font-size: -webkit-xxx-large;
+        font-family: 'Fredoka One', cursive;
+        padding-top: 1em;
+    }
+    span.desc-web{
+        font-size: larger;
+        font-family: 'Bree Serif', serif
+    }
+}
